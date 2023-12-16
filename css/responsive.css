@@ -1,0 +1,256 @@
+@media screen and (width < 576px) {}
+
+@media screen and (width >=576px) {}
+
+@media screen and (width <=768px) {}
+
+@media screen and (width <=992px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .nav-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    padding: 6px 4px;
+  }
+
+  .nav-logo img {
+    width: 182px;
+    height: 48px;
+  }
+
+  .hamburger-menu {
+    width: 60px;
+    height: 60px;
+    background-color: #232E42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .header-info {
+    width: 100%;
+    position: static;
+    margin-top: 74px;
+    text-align: center;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-info h1 {
+    width: 338px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .header-info a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.16px;
+    padding: 12px 22px;
+  }
+
+  .header-params {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .second-section {
+    flex-direction: column;
+  }
+
+  .second-section-left img {
+    width: 336px;
+  }
+
+  .second-section-right {
+    width: 100%;
+  }
+
+  .arrows {
+    left: 36%;
+    bottom: -30.5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .arrows svg {
+    width: 62px;
+    height: 61px;
+  }
+
+  .second-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .second-section-info>h2 {
+    text-align: center;
+    color: #232E42;
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+    margin-top: 8px;
+    margin-bottom: 26px;
+  }
+
+  .second-section-info>span {
+    color: #92A8C0;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+  }
+
+  .second-section-right {
+    align-items: center;
+  }
+
+  .second-section-right span {
+    display: none;
+  }
+
+  .second-section-right h2 {
+    display: none;
+  }
+
+  .second-section-right p {
+    margin-inline: 23px;
+    margin-top: 32px;
+  }
+
+  .top-side {
+    width: 100%;
+  }
+
+  .actions-row {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 47px;
+  }
+
+  .actions-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+
+  .bottom-side {
+    flex-direction: column;
+    margin-inline: 28px;
+  }
+
+  .bottom-side-left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottom-side-left img {
+    width: 336px;
+  }
+
+  .bottom-side-right {
+    width: 100%;
+  }
+
+  .fourth-section {
+    width: 100%;
+    display: flex;
+    padding: 26px 32px;
+    margin: 0;
+  }
+
+  .fourth-section-top-side {
+    margin-inline: 0px;
+  }
+
+  .hhh {
+    width: 100%;
+    display: flex;
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+
+  }
+
+  .fourth-section-bottom-side {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .Fifth-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-top: 64px;
+    padding-left: 0;
+  }
+
+  .Gallery {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Fifth-section h2 {
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imageeee {
+    width: 384px;
+    height: 238px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sixth-section{
+    padding: 90px;
+
+  }
+  .sixth-section-up{
+    justify-content: center;
+  }
+  .sixth-section-bottom{
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (width >=1400px) {}
